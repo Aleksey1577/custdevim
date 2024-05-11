@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "ubuntu";
+    src: url("/src/fonts/ubuntu.ttf");
+}
+
+@font-face {
+    font-family: "noto-sans";
+    src: url("/src/fonts/NotoSans-Regular.ttf");
+}
+
+@layer components {
+    /* 70px 700 */
+    .typography-h1 {
+        @apply font-ubuntu font-bold text-[47px] lg:text-[70px];
+    }
+
+    /* 20px 400 */
+    .typography-header {
+        @apply font-ubuntu font-normal text-[20px] text-black;
+    }
+
+    /* 15px 600 */
+    .typography-button {
+        @apply font-ubuntu font-semibold text-[15px] text-max-white;
+    }
+
+    /* 24px 400*/
+    .base-text {
+        @apply font-notosans font-normal text-[24px];
+    }
+}
