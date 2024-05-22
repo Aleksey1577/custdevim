@@ -1,6 +1,11 @@
 @import "/src/css/fonts.css";
+@import "/src/css/modal.css";
+@import '/node_modules/modern-normalize/modern-normalize.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    background-color: #F9F9F9;
+}
