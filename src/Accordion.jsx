@@ -7,7 +7,7 @@ export default function Accardion({ title, answer }) {
         <div className="mb-[20px] border-b-[2px]  border-gray">
             <button
                 onClick={() => setAccordionOpen(!accordionOpen)}
-                className="flex justify-between w-full typography-ubuntu-des-tit mb-[20px]"
+                className="flex justify-between w-full typography-faq mb-[20px]"
             >
                 <span className="">{title}</span>
                 <svg
@@ -43,7 +43,7 @@ export default function Accardion({ title, answer }) {
                         : "grid-rows-[0fr] opacity-0"
                 } `}
             >
-                <div className="overflow-hidden typography-ubuntu-des ">
+                <div className="overflow-hidden typography-base ">
                     {answer}
                 </div>
             </div>

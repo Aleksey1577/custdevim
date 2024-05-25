@@ -16,7 +16,7 @@ export default function TabsComponent({ items }) {
                     {items.map((item, index) => (
                         <button
                             ref={index === 0 ? firstBtnRef : null}
-                            key={index}
+                            key={item.id || index}
                             onClick={() => setSelectedTab(index)}
                             className={`outline-none  inline-block mb-[20px] mr-[10px] lg:mr-[30px]  lg:py-[10px] px-[10px] lg:px-[15px] hover:bg-blue hover:text-max-white rounded-[30px] border-[2px] border-blue text-center  focus:bg-blue focus:text-white ${
                                 selectedTab === index

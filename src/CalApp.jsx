@@ -21,7 +21,7 @@ export default function CalApp() {
     }, []);
     return (
         <div className="mb-[150px]">
-            <h3 className="typography-h3 text-center mb-[50px]">
+            <h3 className="typography-h2 text-gradient text-center mb-[50px]">
                 Запишитесь на бесплатную консультацию
             </h3>{" "}
             <Cal

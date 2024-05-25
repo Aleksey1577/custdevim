@@ -17,13 +17,13 @@ import React from "react";
 
 export default function TabsPage() {
     return (
-        <>
+        <div className="mb-[100px]">
             <div className="">
                 <div className="mb-[30px]">
-                    <h3 className="typography-h3 mb-[10px]">
+                    <h3 className="typography-h2 mb-[10px]">
                         Как CustDev помогает бизнесу
                     </h3>
-                    <p className="typography-ubuntu">
+                    <p className="typography-base">
                         После проведения исследования вы можете перестать
                         предполагать потребности клиента и делать поспешные
                         выводы.
@@ -31,7 +31,7 @@ export default function TabsPage() {
                 </div>
             </div>
             <TabsComponent items={items} />
-        </>
+        </div>
     );
 }
 
@@ -42,7 +42,7 @@ const items = [
             <div className="base-text-benefits flex items-center max-lg:flex-col">
                 <img src={Ben1} alt="" className="mr-[50px] max-md:hidden" />
                 <img src={Ben1mob} alt="" className=" mb-[30px] md:hidden" />
-                <p>
+                <p className="typography-base">
                     CustDev помогает более глубоко понять целевую аудиторию и их
                     боли, страхи и потребности. Это позволяет бизнесу
                     адаптировать свои продукты или услуги так, чтобы они лучше

@@ -3,11 +3,11 @@ import { reportdata } from "./data";
 function ReportData({ title, description, description2, description3 }) {
     return (
         <div className="">
-            <h4 className="typography-ubuntu-des-tit mb-[10px] lg:mb-[20px]">{title}</h4>
+            <h4 className="typography-base font-bold mb-[10px] lg:mb-[20px]">{title}</h4>
             <ul className=" list-disc">
-                <li className="typography-ubuntu-des">{description}</li>
-                <li className="typography-ubuntu-des">{description2}</li>
-                <li className="typography-ubuntu-des">{description3}</li>
+                <li className="typography-base">{description}</li>
+                <li className="typography-base">{description2}</li>
+                <li className="typography-base">{description3}</li>
             </ul>
         </div>
     );

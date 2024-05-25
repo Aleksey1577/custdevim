@@ -1,68 +1,39 @@
 @font-face {
-    font-family: "ubuntu";
-    src: url("/src/fonts/ubuntu.ttf");
-}
-
-@font-face {
-    font-family: "noto-sans";
-    src: url("/src/fonts/NotoSans-Regular.ttf");
+    font-family: "opensans";
+    src: url("/src/fonts/OpenSans.ttf");
 }
 
 @layer components {
     /* 70px 700 */
     .typography-h1 {
-        @apply font-ubuntu font-bold text-[47px] lg:text-[70px];
+        @apply font-opensans font-bold text-[47px] lg:text-[70px] leading-tight;
     }
 
+    /* 42px 700 */
     .typography-h2 {
-        @apply font-ubuntu font-bold text-[28px] lg:text-[42px];
+        @apply font-opensans font-bold text-[28px] lg:text-[42px];
     }
 
+    /* 36px 700 */
     .typography-h3 {
-        @apply font-ubuntu font-bold text-[28px] lg:text-[36px];
+        @apply font-opensans font-semibold text-[28px] lg:text-[36px];
     }
 
+    /* 20px 500 */
+    .typography-base {
+        @apply font-opensans font-normal text-[16px] text-blackp lg:text-[20px];
+    }
+
+      /* 20px 500 */
+      .typography-blog {
+        @apply font-opensans font-normal text-[14px] text-blackp lg:text-[18px];
+    }
     /* 20px 400 */
-    .typography-header {
-        @apply font-ubuntu font-normal text-[20px] text-black;
-    }
-
-    /* 20px 00 */
-    .typography-footer {
-        @apply font-ubuntu font-semibold text-[20px] text-black;
-    }
-
-    /* 24px 400 */
-    .typography-ubuntu {
-        @apply font-ubuntu font-normal text-[14px] text-black lg:text-[24px];
-    }
-
-    /* 24px 400 */
-    .typography-ubuntu-des {
-        @apply font-ubuntu font-normal text-[20px] text-black lg:text-[24px];
-    }
-
-    .typography-ubuntu-des-tit {
-        @apply font-ubuntu font-semibold text-[24px] text-black lg:text-[28px];
-    }
-
-    /* 15px 600 */
-    .typography-button {
-        @apply font-ubuntu font-semibold text-[15px] text-max-white;
-    }
-
-    /* 24px 400*/
-    .base-text {
-        @apply font-notosans font-normal text-[20px] lg:text-[24px];
-    }
-
-    /* 20px 400*/
-    .base-text-benefits {
-        @apply font-notosans font-normal text-[14px] lg:text-[20px];
+    .typography-faq {
+        @apply font-opensans font-medium text-[20px] text-black lg:text-[24px];
     }
 
     .text-gradient {
         @apply bg-gradient-to-r from-blueg via-violetg to-pinkg bg-clip-text text-transparent;
     }
-    
 }

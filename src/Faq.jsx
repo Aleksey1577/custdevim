@@ -9,7 +9,7 @@ export default function Faq() {
                 <h3 className="text-gradient typography-h2  mb-[20px]">
                     Часто задаваемые вопросы про CustDev
                 </h3>
-                <p className="typography-ubuntu-des">
+                <p className="typography-base">
                     Мы собрали самые запутанные вопросы, на которые быстро даны
                     ответы. Если по какой-то причине вашего вопроса здесь нет,
                     смело обращайтесь к нам.

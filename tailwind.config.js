@@ -4,8 +4,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                ubuntu: "ubuntu",
-                notosans: "noto-sans",
+                opensans: "opensans",
             },
             colors: {
                 "max-white": "#FFFFFF",
@@ -16,6 +15,7 @@ export default {
                 blueg: "#2C60F3",
                 violetg: "#A938F3",
                 pinkg: "#E48090",
+                blackp: "#1C1C1C",
             },
             backgroundImage: {
                 "hero-desktop": "url(./src/assets/Frame-47.webp)",
